@@ -8,4 +8,4 @@ for(let i = 0; i < point_num; i++){
 		inside_num += 1;
 	}
 }
-console.log(inside_num * 4 / point_num); // 第一象限のみなので、4倍した値が円周率
+console.log(inside_num * 4 / point_num); // 正方形の面積が4倍なので、4倍した値が円周率
